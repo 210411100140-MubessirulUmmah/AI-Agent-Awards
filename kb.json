@@ -1,0 +1,6 @@
+[
+  {"id": "KB01", "isi": "Pendaftaran tes tidak berbiaya.", "eskalasi": false},
+  {"id": "KB02", "isi": "Jadwal wawancara dikoordinasikan setelah verifikasi.", "eskalasi": false},
+  {"id": "KB03", "isi": "Sponsorship opsional dan tidak menentukan hasil.", "eskalasi": false},
+  {"id": "KB04", "isi": "Tarif paket, kepastian penghargaan, dan jadwal spesifik belum tersedia; alihkan ke staf.", "eskalasi": true}
+]

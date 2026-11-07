@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: a1-awards-agent
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: LLM_PER_CHAT_HOUR
+        value: "20"
+      - key: LLM_DAILY_CAP
+        value: "300"
